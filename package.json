@@ -1,0 +1,23 @@
+{
+  "name": "templatenode",
+  "version": "1.0.0",
+  "description": "Projeto de template para novas implementações em NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
