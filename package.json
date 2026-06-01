@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsup": "^8.0.1",
+    "tsup": "^8.3.5",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
-    "vitest": "^1.1.0"
+    "vitest": "^4.1.0"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.22.0",
     "zod": "^3.22.4"
   }
 }
